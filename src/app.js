@@ -30,7 +30,7 @@ app.get("/weather", (req,res)=>{
 
 app.get("*", (req,res)=>{
     res.render('404error',{
-        errorMsg: "OPPS Page not found"
+        errorMsg: "OPPS Page not found, go back to the home page!!"
     });
 });
 
